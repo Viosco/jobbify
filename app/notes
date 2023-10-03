@@ -1,0 +1,15 @@
+
+npx create-expo-app@latest -e with-router jobbify
+npm install expo-font axios react-native-dotenv
+npx expo install react-native@0.71.6
+// to install to run oon expo app
+npm install -g expo-cli
+then run
+expo-cli start --tunnel
+
+
+{tabs.map((tab) => (
+        <View style={{margin: 5, padding: 5, borderWidth: 1, borderColor: "blue"}} key={tab} >
+            <Text>{tab}</Text>
+        </View>
+        ))} 
